@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_champs",
+  "info": {
+    "name": "champ",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "type_de_champ": {
+      "type": "enumeration",
+      "enum": [
+        "texte",
+        "email",
+        "telephone"
+      ]
+    },
+    "valeur": {
+      "type": "string"
+    }
+  }
+}

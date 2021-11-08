@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_accueil_elements",
+  "info": {
+    "name": "elements",
+    "icon": "pen-square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "activite": {
+      "unique": true,
+      "model": "nos-activites"
+    },
+    "titre": {
+      "type": "text"
+    }
+  }
+}

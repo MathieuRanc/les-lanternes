@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image_principale": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "champ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.champ"
+    },
+    "google_map": {
+      "type": "json"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
+    }
+  }
+}

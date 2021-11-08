@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_contents",
+  "info": {
+    "name": "content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "richtext"
+    }
+  }
+}

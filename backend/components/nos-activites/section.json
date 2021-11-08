@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_nos_activites_sections",
+  "info": {
+    "name": "section",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_global_citations",
+  "info": {
+    "name": "citation",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "text"
+    },
+    "auteur": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

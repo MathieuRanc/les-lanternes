@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Letter Gothic Std';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Letter Gothic Std'),
+    url('./LetterGothicStd-Slanted.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Letter Gothic Std';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Letter Gothic Std'),
+    url('./LetterGothicStd.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Letter Gothic Std';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Letter Gothic Std'),
+    url('./LetterGothicStd-BoldSlanted.otf') format('truetype');
+}

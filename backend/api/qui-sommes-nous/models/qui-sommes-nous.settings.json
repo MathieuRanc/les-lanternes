@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "qui_sommes_nous_s",
+  "info": {
+    "name": "Qui sommes nous ?",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personne_1": {
+      "type": "richtext"
+    },
+    "titre": {
+      "type": "string"
+    },
+    "citation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.citation"
+    },
+    "personne_2": {
+      "type": "richtext"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

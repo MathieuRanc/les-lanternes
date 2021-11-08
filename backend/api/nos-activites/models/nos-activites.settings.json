@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nos_activites",
+  "info": {
+    "name": "Nos activités",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nos-activites.section"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "URL": {
+      "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.seo"
+    }
+  }
+}

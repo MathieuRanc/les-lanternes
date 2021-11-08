@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navigation_menus",
+  "info": {
+    "name": "menu",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

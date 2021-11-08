@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_accueil_boutons",
+  "info": {
+    "name": "boutons",
+    "icon": "square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "elements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accueil.elements"
+    }
+  }
+}

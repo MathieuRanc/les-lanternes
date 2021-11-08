@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_seos",
+  "info": {
+    "name": "SEO",
+    "icon": "medal"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
