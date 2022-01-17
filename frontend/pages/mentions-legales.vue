@@ -10,7 +10,26 @@
 export default {
   data() {
     return {
-      content: null,
+      content: {
+        SEO: {
+          title: null,
+          description: null,
+        },
+      },
+    }
+  },
+  head() {
+    return {
+      title: this.content ? this.content.SEO.title : '' || '',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.content ? this.content.SEO.description : '' || '',
+        },
+      ],
     }
   },
   mounted() {

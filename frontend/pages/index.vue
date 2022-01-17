@@ -1,5 +1,5 @@
 <template>
-  <div v-if="content">
+  <div v-if="content.phrase_debut">
     <div class="debut">
       <p v-html="$md.render(content.phrase_debut)" />
     </div>
@@ -19,14 +19,35 @@
 export default {
   data() {
     return {
-      content: null,
+      content: {
+        SEO: {
+          title: null,
+          description: null,
+        },
+      },
+    }
+  },
+  head() {
+    return {
+      title: this.content ? this.content.SEO.title : '' || '',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.content ? this.content.SEO.description : '' || '',
+        },
+      ],
     }
   },
   mounted() {
     this.$fetch()
   },
   async fetch() {
-    this.content = await this.$http.$get(process.env.BASE_URL_API + '/accueil')
+    this.content = await fetch(process.env.BASE_URL_API + '/accueil').then(
+      (res) => res.json()
+    )
   },
   // fetchOnServer: false,
   computed: {

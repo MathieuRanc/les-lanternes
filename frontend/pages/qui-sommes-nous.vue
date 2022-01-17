@@ -1,5 +1,5 @@
 <template>
-  <div class="content" v-if="content">
+  <div class="content" v-if="content.titre">
     <h1>{{ content.titre }}</h1>
     <div class="row">
       <div class="personne" v-html="$md.render(content.personne_1)" />
@@ -23,7 +23,26 @@
 export default {
   data() {
     return {
-      content: null,
+      content: {
+        SEO: {
+          title: null,
+          description: null,
+        },
+      },
+    }
+  },
+  head() {
+    return {
+      title: this.content ? this.content.SEO.title : '' || '',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.content ? this.content.SEO.description : '' || '',
+        },
+      ],
     }
   },
   mounted() {

@@ -1,5 +1,5 @@
 <template>
-  <div class="content" v-if="content">
+  <div class="content" v-if="content.champ">
     <header>
       <!-- {{ content.image_principale }} -->
       <!-- <img
@@ -52,9 +52,28 @@
 export default {
   data() {
     return {
-      content: null,
+      content: {
+        SEO: {
+          title: null,
+          description: null,
+        },
+      },
       attribution:
         'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> —Map data ©<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }
+  },
+  head() {
+    return {
+      title: this.content ? this.content.SEO.title : '' || '',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.content ? this.content.SEO.description : '' || '',
+        },
+      ],
     }
   },
   mounted() {
@@ -78,7 +97,7 @@ export default {
   flex-direction: column;
 }
 header {
-  background-color: #D7C9C1;
+  background-color: #d7c9c1;
   margin-top: 20px;
   position: relative;
   overflow: hidden;

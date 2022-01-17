@@ -32,6 +32,7 @@ div {
   display: flex;
   justify-content: space-evenly;
   button {
+    color: black;
     font-family: 'Letter Gothic Std';
     font-size: 22px;
     font-style: normal;
