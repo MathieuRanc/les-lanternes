@@ -21,6 +21,9 @@
 </template>
 
 <script>
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1)
+}
 export default {
   computed: {
     baseUrlApi() {
@@ -35,11 +38,15 @@ export default {
           description: null,
         },
       },
+      titre: capitalizeFirstLetter(this.$route.params.slug).replaceAll(
+        '-',
+        ' '
+      ),
     }
   },
   head() {
     return {
-      title: this.content ? this.content.SEO.title : '' || '',
+      title: this.titre,
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

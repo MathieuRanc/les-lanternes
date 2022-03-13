@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name:'content',
   props: {
     data: {
       type: Object,
