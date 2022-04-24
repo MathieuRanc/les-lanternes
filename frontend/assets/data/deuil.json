@@ -1,0 +1,30 @@
+{
+  "id": 4,
+  "titre": "deuil",
+  "URL": "deuil",
+  "created_at": "2022-02-09T07:45:02.650Z",
+  "updated_at": "2022-03-09T11:50:37.968Z",
+  "section": [
+    {
+      "id": 11,
+      "titre": "Les fondements",
+      "description": "Le deuil est un temps douloureux d'adaptation à la perte (décès, séparation, déménagement...)"
+    },
+    {
+      "id": 12,
+      "titre": "Les objectifs",
+      "description": "\"Parler de ses peines, c'est déjà se consoler\" Albert Camus\nL'accompagnement du deuil est un travail de renaissance pour ceux qui, confrontés à un indicible chagrin, ne savent plus comment avancer.\nLe deuil n'est pas oublier mais apprendre l'avenir à nos souvenirs."
+    },
+    {
+      "id": 13,
+      "titre": "Déroulement",
+      "description": "En consultation"
+    }
+  ],
+  "SEO": {
+    "id": 7,
+    "titre": "Deuil",
+    "description": "Les Lanternes Thérapie Bourges vous accompagnent dans le deuil."
+  },
+  "images": []
+}

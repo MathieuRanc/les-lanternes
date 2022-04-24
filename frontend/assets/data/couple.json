@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "titre": "couple",
+  "URL": "couples",
+  "created_at": "2021-10-04T08:07:08.770Z",
+  "updated_at": "2022-02-09T08:15:15.642Z",
+  "section": [
+    {
+      "id": 1,
+      "titre": "Les fondements",
+      "description": "Le couple peut traverser des périodes difficiles sans prendre conscience des secousses qu'il subit, entrainant amertume, colère, déception..... \n\nChacun est enfermé dans sa position, amenant parfois des difficultés de communication et des reproches plus ou moins exprimés."
+    },
+    {
+      "id": 2,
+      "titre": "Les objectifs",
+      "description": "La thérapie permet de réengager le dialogue au sein du couple pour que chacun puisse s'exprimer et se réecouter."
+    },
+    {
+      "id": 3,
+      "titre": "Déroulement",
+      "description": "**La date du week-end est à définir ensemble.**"
+    }
+  ],
+  "SEO": {
+    "id": 1,
+    "titre": "Thérapie Couples Bourges",
+    "description": "Les Lanternes Thérapie vous accompagnent pour des thérapies de couple à Bourges."
+  },
+  "images": []
+}

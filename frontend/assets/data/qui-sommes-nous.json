@@ -1,0 +1,83 @@
+{
+  "id": 1,
+  "personne_1": "**Géraldine de Raigniac**\n\nPsychopraticienne\n\nJe travaille en session, avec le parcours GEDE (WWW.PSY.GEDE).\n\nAu fil des années, je me suis formée:\nà l'accompagnement au Deuil\nà la thérapie de couple \naux constellations familiales\n\nJ'accompagne également des enfants en cabinet, par le jeu, le dessin,\nla relaxation thérapeutique et les réflexes archaïques.\n\nGéraldine de Raigniac\n0615823134 - https://www.geraldine-de-raigniac.fr/\nPsycho-praticienne - Sophro-relaxologue - intégration des reflexes",
+  "titre": "Nos parcours",
+  "personne_2": "**Dagmar Von Heinemann**\n\nPsychopraticienne\n\nJe travaille en session de groupes sur 1 semaine avec le parcours GEDE.\n\nPour élargir mes compétences, je me suis formée :\nEn accompagnement du deuil\nEn thérapie de couple\nEn constellations familiales\n\nDagmar von Heinemann\n06.03.74.82.95 – dagvonhei63@gmail.com",
+  "created_at": "2021-10-04T08:15:33.811Z",
+  "updated_at": "2022-02-08T08:03:27.608Z",
+  "citation": {
+    "id": 1,
+    "texte": "\"Ce que tu nies te soumet. ce que tu acceptes te transforme\"",
+    "auteur": "Carl Gustav Jung",
+    "source": "https://fr.wikipedia.org/wiki/Carl_Gustav_Jung"
+  },
+  "SEO": {
+    "id": 6,
+    "titre": "Qui sommes nous ? Thérapie Bourges",
+    "description": "Géraldine de Raigniac et Dagmar Von Heinemann proposent des thérapies à Bourges."
+  },
+  "image": {
+    "id": 3,
+    "name": "IMG_9741.jpeg",
+    "alternativeText": "",
+    "caption": "",
+    "width": 3024,
+    "height": 4032,
+    "formats": {
+      "thumbnail": {
+        "name": "thumbnail_IMG_9741.jpeg",
+        "hash": "thumbnail_IMG_9741_1357d40f7a",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "width": 117,
+        "height": 156,
+        "size": 6.97,
+        "path": null,
+        "url": "/uploads/thumbnail_IMG_9741_1357d40f7a.jpeg"
+      },
+      "large": {
+        "name": "large_IMG_9741.jpeg",
+        "hash": "large_IMG_9741_1357d40f7a",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "width": 750,
+        "height": 1000,
+        "size": 140.98,
+        "path": null,
+        "url": "/uploads/large_IMG_9741_1357d40f7a.jpeg"
+      },
+      "medium": {
+        "name": "medium_IMG_9741.jpeg",
+        "hash": "medium_IMG_9741_1357d40f7a",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "width": 563,
+        "height": 750,
+        "size": 91.31,
+        "path": null,
+        "url": "/uploads/medium_IMG_9741_1357d40f7a.jpeg"
+      },
+      "small": {
+        "name": "small_IMG_9741.jpeg",
+        "hash": "small_IMG_9741_1357d40f7a",
+        "ext": ".jpeg",
+        "mime": "image/jpeg",
+        "width": 375,
+        "height": 500,
+        "size": 46.47,
+        "path": null,
+        "url": "/uploads/small_IMG_9741_1357d40f7a.jpeg"
+      }
+    },
+    "hash": "IMG_9741_1357d40f7a",
+    "ext": ".jpeg",
+    "mime": "image/jpeg",
+    "size": 485.03,
+    "url": "/uploads/IMG_9741_1357d40f7a.jpeg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2021-10-04T08:15:25.181Z",
+    "updated_at": "2021-10-04T08:15:25.189Z"
+  }
+}

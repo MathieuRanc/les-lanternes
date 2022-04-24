@@ -1,0 +1,55 @@
+{
+  "id": 1,
+  "google_map": {
+    "lat-lng": [
+      47.118633098311484,
+      2.6984047828673794
+    ]
+  },
+  "created_at": "2021-10-04T08:14:01.839Z",
+  "updated_at": "2022-02-08T08:11:06.451Z",
+  "champ": [
+    {
+      "id": 2,
+      "titre": "mail",
+      "type_de_champ": "email",
+      "valeur": "dagvonhei63@gmail.com"
+    },
+    {
+      "id": 1,
+      "titre": "téléphone",
+      "type_de_champ": "telephone",
+      "valeur": "0603748295"
+    },
+    {
+      "id": 3,
+      "titre": "adresse",
+      "type_de_champ": "texte",
+      "valeur": "7 rue de la forêt 18800 Gron"
+    }
+  ],
+  "SEO": {
+    "id": 5,
+    "titre": "Contact Thérapie Bourges",
+    "description": "Les Lanternes vous accompagnent pour des thérapies à Bourges, pour en savoir plus contactez-nous "
+  },
+  "image_principale": {
+    "id": 2,
+    "name": "Rectangle 1.svg",
+    "alternativeText": "",
+    "caption": "",
+    "width": 1440,
+    "height": 198,
+    "formats": null,
+    "hash": "Rectangle_1_7b2a5c31a2",
+    "ext": ".svg",
+    "mime": "image/svg+xml",
+    "size": 0.18,
+    "url": "/uploads/Rectangle_1_7b2a5c31a2.svg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2021-10-04T08:13:02.948Z",
+    "updated_at": "2021-10-04T08:13:02.955Z"
+  }
+}

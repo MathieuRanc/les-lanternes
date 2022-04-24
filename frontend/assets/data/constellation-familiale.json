@@ -1,0 +1,30 @@
+{
+  "id": 3,
+  "titre": "constellation familiale",
+  "URL": "constellation-familiale",
+  "created_at": "2021-10-04T08:09:26.663Z",
+  "updated_at": "2022-02-09T08:14:47.877Z",
+  "section": [
+    {
+      "id": 7,
+      "titre": "Les fondements",
+      "description": "Il s'agit d'une thérapie familiale, transgénérationelle et brève."
+    },
+    {
+      "id": 8,
+      "titre": "Les objectifs",
+      "description": "Elle permet de mieux comprendre les nœuds relationnels en jeu dans nos systèmes familiaux, de les dénouer et d'apporter des prises de conscience pacifiante."
+    },
+    {
+      "id": 9,
+      "titre": "Déroulement",
+      "description": "**Un samedi par trimestre à Bourges.**"
+    }
+  ],
+  "SEO": {
+    "id": 3,
+    "titre": "Constellation familiale Bourges",
+    "description": "Les Lanternes Thérapie vous proposent avec .Géraldine de Raigniac et Dagmar Von Heinemann la constellation familiale à Bourges."
+  },
+  "images": []
+}

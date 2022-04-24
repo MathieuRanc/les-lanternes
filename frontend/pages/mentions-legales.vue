@@ -1,7 +1,7 @@
 <template>
   <div
     id="mentions-legales"
-    v-if="content"
+    v-if="content.contenu"
     v-html="$md.render(content.contenu)"
   />
 </template>
@@ -12,8 +12,8 @@ export default {
     return {
       content: {
         SEO: {
-          title: null,
-          description: null,
+          title: '',
+          description: '',
         },
       },
     }
@@ -27,7 +27,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.content ? this.content.SEO.description : '' || '',
+          content: '',
         },
       ],
     }

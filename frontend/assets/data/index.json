@@ -1,0 +1,86 @@
+{
+  "id": 1,
+  "phrase_debut": "Depuis maintenant quelques années, nous accompagnons des personnes en Thérapie de groupe sur une semaine à Bourges.\n\n\nFortes de cette expérience, nous vous proposons des accompagnements pour les couples, les jeunes, en constellation familiale et du deuil.",
+  "created_at": "2021-10-04T08:11:46.954Z",
+  "updated_at": "2022-03-09T11:47:46.986Z",
+  "page": [
+    {
+      "__component": "accueil.boutons",
+      "id": 1,
+      "elements": [
+        {
+          "id": 1,
+          "activite": {
+            "id": 2,
+            "titre": "jeunes (18-22)",
+            "URL": "jeunes",
+            "created_at": "2021-10-04T08:08:40.229Z",
+            "updated_at": "2022-02-09T08:15:05.954Z",
+            "images": []
+          },
+          "titre": "Jeunes"
+        },
+        {
+          "id": 2,
+          "activite": {
+            "id": 1,
+            "titre": "couple",
+            "URL": "couples",
+            "created_at": "2021-10-04T08:07:08.770Z",
+            "updated_at": "2022-02-09T08:15:15.642Z",
+            "images": []
+          },
+          "titre": "Couple"
+        },
+        {
+          "id": 3,
+          "activite": {
+            "id": 3,
+            "titre": "constellation familiale",
+            "URL": "constellation-familiale",
+            "created_at": "2021-10-04T08:09:26.663Z",
+            "updated_at": "2022-02-09T08:14:47.877Z",
+            "images": []
+          },
+          "titre": "Constellation\nfamiliale"
+        },
+        {
+          "id": 5,
+          "activite": {
+            "id": 4,
+            "titre": "deuil",
+            "URL": "deuil",
+            "created_at": "2022-02-09T07:45:02.650Z",
+            "updated_at": "2022-03-09T11:50:37.968Z",
+            "images": []
+          },
+          "titre": "Deuil"
+        }
+      ]
+    }
+  ],
+  "SEO": {
+    "id": 4,
+    "titre": "Les Lanternes Thérapie Bourges",
+    "description": "Les lanternes vous proposent des thérapies à Bourges, pour les couples, les jeunes, la constellation familiale et le deuil. "
+  },
+  "image_principale": {
+    "id": 1,
+    "name": "bonhommes.svg",
+    "alternativeText": "",
+    "caption": "",
+    "width": 750,
+    "height": 353,
+    "formats": null,
+    "hash": "bonhommes_4b6dcc8294",
+    "ext": ".svg",
+    "mime": "image/svg+xml",
+    "size": 18.72,
+    "url": "/uploads/bonhommes_4b6dcc8294.svg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2021-10-04T08:11:38.516Z",
+    "updated_at": "2021-10-04T08:11:38.523Z"
+  }
+}

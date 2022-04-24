@@ -21,6 +21,16 @@
 </template>
 
 <script>
+import jeunes from '@/assets/data/jeunes.json'
+import constellationFamiliale from '@/assets/data/constellation-familiale.json'
+import couple from '@/assets/data/couple.json'
+import deuil from '@/assets/data/deuil.json'
+const content = {
+  jeunes,
+  'constellation-familiale': constellationFamiliale,
+  couple,
+  deuil,
+}
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1)
 }
@@ -32,12 +42,7 @@ export default {
   },
   data() {
     return {
-      content: {
-        SEO: {
-          title: null,
-          description: null,
-        },
-      },
+      content: content[this.$route.params.slug],
       titre: capitalizeFirstLetter(this.$route.params.slug).replaceAll(
         '-',
         ' '

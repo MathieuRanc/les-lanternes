@@ -1,0 +1,30 @@
+{
+  "id": 2,
+  "titre": "jeunes (18-22)",
+  "URL": "jeunes",
+  "created_at": "2021-10-04T08:08:40.229Z",
+  "updated_at": "2022-02-09T08:15:05.954Z",
+  "section": [
+    {
+      "id": 4,
+      "titre": "Les fondements",
+      "description": "Nous proposons un week-end de discernement à cette période charnière où des choix importants se posent aux jeunes."
+    },
+    {
+      "id": 5,
+      "titre": "Les objectifs",
+      "description": "Permettre au jeune d'accueillir qui il est, son histoire familiale afin qu'il découvre son identité et sa valeur pour prendre son envol."
+    },
+    {
+      "id": 6,
+      "titre": "Déroulement",
+      "description": "Du vendredi soir 19 heures au dimanche 17 heures, en petits groupes de 4 personnes.\n"
+    }
+  ],
+  "SEO": {
+    "id": 2,
+    "titre": "Thérapie Jeunes Bourges ",
+    "description": "Les Lanternes Thérapie vous accompagnent pour des thérapies de jeunes à Bourges."
+  },
+  "images": []
+}
