@@ -49,22 +49,18 @@
 </template>
 
 <script>
+import content from '@/assets/data/contact.json'
 export default {
   data() {
     return {
-      content: {
-        SEO: {
-          title: null,
-          description: null,
-        },
-      },
+      content,
       attribution:
         'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> —Map data ©<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }
   },
   head() {
     return {
-      title: 'Contact',
+      title: 'Les Lanternes Thérapie | Contact',
       // title: this.content ? this.content.SEO.title : '' || '',
       meta: [
         { charset: 'utf-8' },

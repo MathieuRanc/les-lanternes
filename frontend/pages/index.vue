@@ -16,15 +16,11 @@
 </template>
 
 <script>
+import content from '@/assets/data/index.json'
 export default {
   data() {
     return {
-      content: {
-        SEO: {
-          title: null,
-          description: null,
-        },
-      },
+      content,
     }
   },
   head() {

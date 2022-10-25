@@ -20,21 +20,17 @@
 </template>
 
 <script>
+import content from '@/assets/data/qui-sommes-nous.json'
 export default {
   data() {
     return {
-      content: {
-        SEO: {
-          title: null,
-          description: null,
-        },
-      },
+      content,
     }
   },
   head() {
     return {
       // title: this.content ? this.content.SEO.title : '' || '',
-      title: 'Qui sommes nous ?',
+      title: 'Les Lanternes Thérapie | Qui sommes nous ?',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

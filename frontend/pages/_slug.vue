@@ -51,7 +51,7 @@ export default {
   },
   head() {
     return {
-      title: this.titre,
+      title: 'Les Lanternes Thérapie | ' + this.titre,
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

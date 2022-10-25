@@ -1,10 +1,9 @@
 <template>
   <div v-if="data.elements">
-    <nuxt-link
+    <button
       v-for="button in data.elements"
       :key="button.id"
-      :to="'/' + button.activite.URL"
-      tag="button"
+      @click="$router.push('/' + button.activite.URL)"
       v-html="$md.render(button.titre)"
     />
   </div>

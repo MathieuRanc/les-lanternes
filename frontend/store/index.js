@@ -1,5 +1,7 @@
+import navigation from '@/assets/data/navigation.json';
+
 export const state = () => ({
-  navigation: null,
+  navigation,
 })
 
 export const mutations = {

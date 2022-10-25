@@ -5,7 +5,7 @@ export default {
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    // title: 'Les lanternes',
+    // title: 'Les Lanternes Thérapie | Les lanternes',
     htmlAttrs: {
       lang: 'fr',
     },
@@ -59,9 +59,10 @@ export default {
 
   generate: {
     routes: [
-      '/week-end-couples',
-      '/week-end-jeunes',
-      '/constellations-familiales',
+      '/jeune',
+      '/couple',
+      '/constellation-familiale',
+      '/deuil',
     ],
   },
 }

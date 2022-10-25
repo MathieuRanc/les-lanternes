@@ -7,20 +7,16 @@
 </template>
 
 <script>
+import content from '@/assets/data/mentions-legales'
 export default {
   data() {
     return {
-      content: {
-        SEO: {
-          title: '',
-          description: '',
-        },
-      },
+      content,
     }
   },
   head() {
     return {
-      title: 'Mentions légales',
+      title: 'Les Lanternes Thérapie | Mentions légales',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
